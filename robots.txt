@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /dev-tools/
+Sitemap: https://rzezba-sakralna.pl/sitemap.xml

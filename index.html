@@ -1,1 +1,180 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pracownia rzeźby sakralnej w drewnie. Tradycja, rzemiosło i sztuka. Zobacz galerię unikalnych rzeźb, wystawy i skontaktuj się z artystą. Tworzę ołtarze, figury świętych i płaskorzeźby z najwyższą dbałością o detale.">
+    <meta name="keywords" content="rzeźba sakralna, rzeźba w drewnie, figury świętych, ołtarze drewniane, sztuka sakralna, snycerstwo">
+    <title>Rzeźba Sakralna | Tradycja i Sztuka w Drewnie</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Rzeźba Sakralna | Tradycja i Sztuka w Drewnie">
+    <meta property="og:description" content="Pracownia rzeźby sakralnej w drewnie. Tradycja, rzemiosło i sztuka. Zobacz galerię unikalnych rzeźb, wystawy i skontaktuj się z artystą. Tworzę ołtarze, figury świętych i płaskorzeźby z najwyższą dbałością o detale.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rzezba-sakralna.pl">
+    <meta property="og:image" content="https://rzezba-sakralna.pl/img/Galeria/big/41.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:site_name" content="Rzeźba Sakralna">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rzeźba Sakralna | Tradycja i Sztuka w Drewnie">
+    <meta name="twitter:description" content="Pracownia rzeźby sakralnej w drewnie. Tradycja, rzemiosło i sztuka. Zobacz galerię unikalnych rzeźb, wystawy i skontaktuj się z artystą. Tworzę ołtarze, figury świętych i płaskorzeźby z najwyższą dbałością o detale.">
+    <meta name="twitter:image" content="https://rzezba-sakralna.pl/img/Galeria/big/41.jpg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico"/>
+
+        <!-- Structured Data: LocalBusiness Contact Info -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Rzeźba Sakralna",
+            "image": "https://rzezba-sakralna.pl/img/Galeria/big/41.jpg",
+            "url": "https://rzezba-sakralna.pl",
+            "telephone": "+48 603 605 161",
+            "email": "mielek@interia.pl",
+            "description": "Pracownia rzeźby sakralnej w drewnie. Tradycja, rzemiosło i sztuka. Ołtarze, figury świętych, płaskorzeźby.",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+48 603 605 161",
+                "contactType": "customer service",
+                "areaServed": "PL",
+                "availableLanguage": ["pl", "en"]
+            }
+        }
+        </script>
+</head>
+<body>
+
+
+    <!-- Modal overlay for mobile menu (must be direct child of body for full coverage) -->
+    <div id="menu-overlay" class="menu-overlay" tabindex="-1" aria-hidden="true"></div>
+
+    <header>
+        <nav class="nav-container" aria-label="Główna nawigacja">
+            <a href="#" class="logo">
+                <img src="images/header.png" alt="Jan Chmielek - Rzeźba w drewnie" class="logo-img" />
+                <h1 class="logo-title">Rzeźba Sakralna</h1>
+            </a>
+            <!-- ARIA live region for announcements -->
+            <div id="aria-status" class="visually-hidden" role="status" aria-live="polite"></div>
+            <button class="menu-toggle" id="mobile-menu" aria-label="Menu" aria-expanded="false" type="button">☰</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#o-mnie">O Mnie</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#wystawy">Wystawy</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <main>
+        <section class="hero">
+            <div class="hero-carousel-bg"></div>
+            <div class="hero-text-bg"></div>
+            <div class="hero-content">
+                <h2>Piękno Ukryte w Drewnie</h2>
+                <p>Tradycyjna rzeźba sakralna wykonywana ręcznie z poszanowaniem stuletnich technik rzemieślniczych. Ołtarze, figury i płaskorzeźby z duszą.</p>
+                <a href="#galeria" class="btn">Zobacz moje prace</a>
+            </div>
+        </section>
+
+        <section id="o-mnie" class="section">
+            <h2 class="section-title">O Mnie</h2>
+            <div class="about-grid">
+                <div class="about-img">
+                    <picture>
+                        <source srcset="images/jan_04_f.webp" type="image/webp">
+                        <img src="images/jan_04_f.jpg" alt="Rzeźbiarz w pracowni">
+                    </picture>
+                </div>
+                <div class="about-text">
+                    <p>Zajmuję się projektowaniem i realizacją rzeźb sakralnych z naturalnego drewna. Każde z moich dzieł jest unikalne, tworzone z dbałością o najmniejszy detal i poszanowaniem teologicznego przekazu.</p>
+                    <p>Moje dłuta kształtują szlachetne gatunki drewna – dąb, lipę i orzech, nadając im formy, które służą kontemplacji i modlitwie w kościołach oraz domach na całym świecie.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="section section-galeria">
+            <h2 class="section-title">Galeria</h2>
+            <div class="gallery-grid">
+                <!-- 15 statycznych zdjęć -->
+                <figure class="gallery-item"><a href="img/Galeria/big/01.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/01.jpg"><picture><source srcset="img/Galeria/small/01.webp" type="image/webp"><img src="img/Galeria/small/01.jpg" alt="Galeria zdjęcie 1"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 1</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/02.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/02.jpg"><picture><source srcset="img/Galeria/small/02.webp" type="image/webp"><img src="img/Galeria/small/02.jpg" alt="Galeria zdjęcie 2"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 2</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/03.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/03.jpg"><picture><source srcset="img/Galeria/small/03.webp" type="image/webp"><img src="img/Galeria/small/03.jpg" alt="Galeria zdjęcie 3"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 3</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/04.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/04.jpg"><picture><source srcset="img/Galeria/small/04.webp" type="image/webp"><img src="img/Galeria/small/04.jpg" alt="Galeria zdjęcie 4"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 4</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/05.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/05.jpg"><picture><source srcset="img/Galeria/small/05.webp" type="image/webp"><img src="img/Galeria/small/05.jpg" alt="Galeria zdjęcie 5"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 5</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/06.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/06.jpg"><picture><source srcset="img/Galeria/small/06.webp" type="image/webp"><img src="img/Galeria/small/06.jpg" alt="Galeria zdjęcie 6"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 6</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/07.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/07.jpg"><picture><source srcset="img/Galeria/small/07.webp" type="image/webp"><img src="img/Galeria/small/07.jpg" alt="Galeria zdjęcie 7"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 7</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/08.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/08.jpg"><picture><source srcset="img/Galeria/small/08.webp" type="image/webp"><img src="img/Galeria/small/08.jpg" alt="Galeria zdjęcie 8"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 8</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/09.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/09.jpg"><picture><source srcset="img/Galeria/small/09.webp" type="image/webp"><img src="img/Galeria/small/09.jpg" alt="Galeria zdjęcie 9"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 9</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/10.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/10.jpg"><picture><source srcset="img/Galeria/small/10.webp" type="image/webp"><img src="img/Galeria/small/10.jpg" alt="Galeria zdjęcie 10"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 10</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/11.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/11.jpg"><picture><source srcset="img/Galeria/small/11.webp" type="image/webp"><img src="img/Galeria/small/11.jpg" alt="Galeria zdjęcie 11"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 11</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/12.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/12.jpg"><picture><source srcset="img/Galeria/small/12.webp" type="image/webp"><img src="img/Galeria/small/12.jpg" alt="Galeria zdjęcie 12"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 12</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/13.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/13.jpg"><picture><source srcset="img/Galeria/small/13.webp" type="image/webp"><img src="img/Galeria/small/13.jpg" alt="Galeria zdjęcie 13"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 13</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/14.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/14.jpg"><picture><source srcset="img/Galeria/small/14.webp" type="image/webp"><img src="img/Galeria/small/14.jpg" alt="Galeria zdjęcie 14"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 14</figcaption></figure>
+                <figure class="gallery-item"><a href="img/Galeria/big/15.webp" data-lightbox="galeria" data-jpg-fallback="img/Galeria/big/15.jpg"><picture><source srcset="img/Galeria/small/15.webp" type="image/webp"><img src="img/Galeria/small/15.jpg" alt="Galeria zdjęcie 15"></picture><div class="gallery-overlay"></div></a><figcaption>Galeria zdjęcie 15</figcaption></figure>
+            </div>
+        </section>
+
+        <section id="wystawy" class="section">
+            <h2 class="section-title">Wystawy</h2>
+            <div class="wystawy-container">
+                <!-- Exhibitions loaded dynamically by wystawy-loader.js -->
+            </div>
+        </section>
+
+        <section id="kontakt" class="section contact-bg">
+            <h2 class="section-title">Skontaktuj się ze mną</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Dane kontaktowe</h3>
+                    <p><strong>Telefon:</strong> <a href="tel:+48603605161">+48 603 605 161</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:mielek@interia.pl">mielek@interia.pl</a></p>
+                    <br>
+                    <p>Zapraszam do kontaktu w celu omówienia indywidualnych projektów, renowacji oraz zamówień dla parafii i osób prywatnych.</p>
+                </div>
+                <div class="contact-form">
+                        <form action="contact.php" method="POST" accept-charset="UTF-8" autocomplete="on">
+                        <input type="text" name="name" id="contact-name" placeholder="Twoje imię i nazwisko" required aria-label="Imię i nazwisko">
+                        <input type="email" name="email" id="contact-email" placeholder="Twój adres email" required aria-label="Adres email">
+                        <textarea name="message" id="contact-message" rows="5" placeholder="Treść wiadomości..." required aria-label="Treść wiadomości" aria-describedby="contact-message-desc"></textarea>
+                        <span id="contact-message-desc" class="visually-hidden">Wpisz treść swojej wiadomości.</span>
+                        <div id="contact-error" class="contact-error"></div>
+                        <button type="submit" class="btn btn-submit">Wyślij wiadomość</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rzeźba Sakralna. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="webp-support.js"></script>
+    <script src="menu.js"></script>
+    <script src="carousel.js"></script>
+    <script src="galeria-captions.js"></script>
+    <script src="lightbox.js"></script>
+    <script src="gallery-loader.js" defer></script>
+    <script src="wystawy-data.js" defer></script>
+    <script src="wystawy-loader.js" defer></script>
+    <script src="contact-form.js" defer></script>
+    <script src="scroll-to-top.js" defer></script>
+
+    <button id="scrollToTopBtn" aria-label="Przewiń do góry">
+        ↑
+    </button>
+</body>
+</html>
